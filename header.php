@@ -30,7 +30,7 @@
 <span class="icon-bar"></span>
 </button>
 <a class="navbar-brand" href="/"><?php echo bloginfo('name'); ?></a>
-</div>
+<!-- /.navbar-header --></div>
 <div id="navbar" class="navbar-collapse collapse">
 <form method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-form navbar-right">
 <div class="form-group">
