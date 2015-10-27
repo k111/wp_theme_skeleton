@@ -15,12 +15,13 @@ CSSにはBootstrapを使用しています。
 | front-page.php | トップページ |
 | functions.php | - |
 | heaeder.php | ヘッダーパーツ |
-| index.php | 一覧ページテンプレート（投稿トップ、カテゴリ、日付アーカイブ、検索結果） |
+| index.php | 一覧ページテンプレート
+（投稿トップ、カテゴリ、日付アーカイブ、検索結果） |
 | page.php | 固定ページテンプレート |
 | screenshot.jpg | - |
-| sideabr-page.php | サイドバーパーツ固定ページ用 |
-| sideabr-single.php | サイドバーパーツ投稿用 |
-| sideabr.php | サイドバーパーツ |
+| sidebar-page.php | サイドバーパーツ固定ページ用 |
+| sidebar-single.php | サイドバーパーツ投稿用 |
+| sidebar.php | サイドバーパーツ |
 | single-service.php | カスタム投稿タイプ個別テンプレート |
 | single.php | 投稿ページテンプレート |
 | style.css | - |
