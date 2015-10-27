@@ -3,13 +3,15 @@
 WordPress構築時のテンプレート。
 CSSにはBootstrapを使用しています。
 
+## ファイル構成
+
+
+
 ## Plugins
 
 使用プラグインは以下。
 
-### Breadcrumb NavXT
-
-https://ja.wordpress.org/plugins/breadcrumb-navxt/
+### [Breadcrumb NavXT](https://ja.wordpress.org/plugins/breadcrumb-navxt/)
 
 パンくずリスト生成プラグイン
 
