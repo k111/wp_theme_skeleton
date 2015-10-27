@@ -15,7 +15,7 @@ CSSにはBootstrapを使用しています。
 | front-page.php | トップページ |
 | functions.php | - |
 | heaeder.php | ヘッダーパーツ |
-| index.php | 一覧ページテンプレート  （投稿トップ、カテゴリ、日付アーカイブ、検索結果） |
+| index.php | 一覧ページテンプレート<br>（投稿トップ、カテゴリ、日付アーカイブ、検索結果） |
 | page.php | 固定ページテンプレート |
 | screenshot.jpg | - |
 | sidebar-page.php | サイドバーパーツ固定ページ用 |
