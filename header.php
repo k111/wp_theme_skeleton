@@ -3,7 +3,7 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta charset="<?php bloginfo( 'charset' ); ?>">
-<title><?php wp_title(' - ', true, 'right'); ?></title>
+<title><?php wp_title(); echo ' | '; bloginfo('name'); ?></title>
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <meta name="format-detection" content="telephone=no">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
