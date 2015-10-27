@@ -5,8 +5,9 @@ CSSにはBootstrapを使用しています。
 
 ## ファイル構成
 
+
 | file | description |
-|:-|:-|
+|---|---|
 | 404.php | - |
 | archive-service.php | カスタム投稿タイプアーカイブ |
 | carousel-top.php | カスタム投稿タイプカルーセルパーツ |
