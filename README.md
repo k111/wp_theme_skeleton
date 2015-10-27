@@ -5,7 +5,14 @@ CSSにはBootstrapを使用しています。
 
 ## ファイル構成
 
-
+|file|description|
+|:-|:-|
+|404.php||
+|archive-service.php|カスタム投稿タイプアーカイブ|
+|carousel-top.php|カスタム投稿タイプカルーセルパーツ|
+|footer.php|フッターパーツ|
+|front-page.php|トップページ|
+|functions.php|-|
 
 ## Plugins
 
