@@ -29,17 +29,12 @@ CSSにはBootstrapを使用しています。
 
 使用プラグインは以下。
 
-### [Breadcrumb NavXT](https://ja.wordpress.org/plugins/breadcrumb-navxt/)
+| file | description |
+|---|---|
+| [Breadcrumb NavXT](https://ja.wordpress.org/plugins/breadcrumb-navxt/) | パンくずリスト生成プラグイン |
+| [WP-PageNavi](https://ja.wordpress.org/plugins/wp-pagenavi/) | ページャー生成プラグイン |
 
-パンくずリスト生成プラグイン
-
-### [WP-PageNavi](https://ja.wordpress.org/plugins/wp-pagenavi/)
-
-ページャー生成プラグイン
-
-### [Page Links To](https://ja.wordpress.org/plugins/page-links-to/)
-
-リダイレクトするプラグイン
+| [Page Links To](https://ja.wordpress.org/plugins/page-links-to/) | リダイレクトするプラグイン |
 
 ### [Duplicate Post](https://ja.wordpress.org/plugins/duplicate-post/)
 
