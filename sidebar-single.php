@@ -3,7 +3,7 @@
 <ul class="nav nav-pills nav-stacked">
 <?php // カテゴリーリストを表示
 wp_list_categories( array(
-    'title_li' => ''
+    'title_li' => '',
 )); ?>
 </ul>
 </section>

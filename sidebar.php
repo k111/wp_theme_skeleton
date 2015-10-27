@@ -8,7 +8,7 @@ if( is_single() || is_category() || is_archive() || is_home() ) {
 ?>
 
 <?php // 固定ページの場合
-if( is_page() ) {
+if( !is_page('contact') ) {
     get_sidebar('page');
 }
 ?>
