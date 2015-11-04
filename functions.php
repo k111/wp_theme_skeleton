@@ -94,6 +94,16 @@ function mypace_custom_navi_menu( $classes, $item ) {
     return $classes;
 }
 
+/*
+ * 親ページ判定
+ */
+function is_parent_slug() {
+  global $post;
+  if ($post->post_parent) {
+    $post_data = get_post($post->post_parent);
+    return $post_data->post_name;
+  }
+}
 
 /*
  * ウィジェットを使用
