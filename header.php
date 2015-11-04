@@ -49,8 +49,16 @@ $args = array(
     'container' => false,
     'menu_class' => 'nav navbar-nav',
 );
-wp_nav_menu($args);
+//wp_nav_menu($args);
 ?>
+
+<ul class="nav navbar-nav">
+<li<?php if(is_front_page()) echo ' class="active"';?>><a href="/">トップページ</a></li>
+<li<?php if(is_post_type_archive('service') || is_singular('service')) echo ' class="active"';?>><a href="/service/">サービス</a></li>
+<li<?php if(is_page('about') || is_parent_slug('about')) echo ' class="active"';?>><a href="/about/">企業情報</a></li>
+<li<?php if(is_home() || is_single() && !is_singular('service') || is_category() ) echo ' class="active"';?>><a href="/news/">お知らせ</a></li>
+<li<?php if(is_page('contact') || is_parent_slug('contact')) echo ' class="active"';?>><a href="/contact/">お問い合わせ</a></li>
+</ul>
 <!-- /.container --></div>
 <!-- /.navbar --></div>
 
